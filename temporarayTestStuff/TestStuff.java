@@ -45,6 +45,9 @@ public class TestStuff {
 		ts.someMoreChanges(str);
 		ts.someMoreChanges(ts.pubStr);
 		ts.evenMoreChanges(ts.pubStr);
+		
+		
+		
 
 	}
 
