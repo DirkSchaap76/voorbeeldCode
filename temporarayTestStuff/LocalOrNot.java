@@ -1,8 +1,6 @@
 package temporarayTestStuff;
 
-import animal.Dog;
-
-public class TestStuff {
+public class LocalOrNot {
 
 	static String str = "hello world";
 	String pubStr = "my public string";
@@ -37,17 +35,14 @@ public class TestStuff {
 		changeIt(str);
 		System.out.println(str);
 
-		// testing on objects from Class TestStuff
-		TestStuff ts = new TestStuff();
+		// testing on objects from Class LocalOrNot
+		LocalOrNot ts = new LocalOrNot();
 		// ts.pubStr = "I am ts's String";
 		System.out.println("What will ts's String be?: " + ts.pubStr);
 		ts.nonStatChange(ts.pubStr);
 		ts.someMoreChanges(str);
 		ts.someMoreChanges(ts.pubStr);
 		ts.evenMoreChanges(ts.pubStr);
-		
-		
-		
 
 	}
 
